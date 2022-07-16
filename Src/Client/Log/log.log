@@ -1,0 +1,5 @@
+2022-07-15 17:19:09,568 [ 1] INFO  Unity: LoadingManager start
+2022-07-15 17:25:04,894 [ 1] ERROR Unity: Assets/Scripts/UI/UIRegister.cs(45,9): error CS0103: The name `UserService' does not exist in the current context
+
+2022-07-15 17:25:25,933 [ 1] ERROR Unity: Assets/Scripts/UI/UIRegister.cs(45,9): error CS0103: The name `UserService' does not exist in the current context
+

@@ -16,24 +16,31 @@ namespace GameServer
 {
     class GameServer
     {
+        NetService network;
         Thread thread;
         bool running = false;
         public bool Init()
         {
+            network = new NetService();
+            network.Init(8000);
             DBService.Instance.Init();
+            HelloWorldService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;
         }
 
         public void Start()
         {
+            network.Start();
             running = true;
             thread.Start();
+            HelloWorldService.Instance.Start();
         }
 
 
         public void Stop()
         {
+            network.Stop();
             running = false;
             thread.Join();
         }
