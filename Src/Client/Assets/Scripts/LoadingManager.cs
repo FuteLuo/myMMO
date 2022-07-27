@@ -45,12 +45,12 @@ public class LoadingManager : MonoBehaviour {
 
         UILoading.SetActive(false);
         UILogin.SetActive(true);
+        yield return null;
+    }
 
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Update is called once per frame
+    void Update () {
+
+    }
 }

@@ -10,7 +10,7 @@ using System.Configuration;
 using System.Threading;
 
 using Network;
-using GameServer.Services;
+using GameServer.Services; 
 
 namespace GameServer
 {
@@ -24,7 +24,8 @@ namespace GameServer
             network = new NetService();
             network.Init(8000);
             DBService.Instance.Init();
-            HelloWorldService.Instance.Init();
+            UserService.Instance.Init();
+            //HelloWorldService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;
         }
@@ -34,7 +35,7 @@ namespace GameServer
             network.Start();
             running = true;
             thread.Start();
-            HelloWorldService.Instance.Start();
+            //HelloWorldService.Instance.Start();
         }
 
 
