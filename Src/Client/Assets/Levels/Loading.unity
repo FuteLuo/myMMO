@@ -1543,7 +1543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &515106541
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3039,7 +3039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &1106257285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3191,7 +3191,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180802063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1808440558}
+        m_MethodName: OnClickLogin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1180802063
@@ -4681,10 +4692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b61f03c43f746a04a90288c941238910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  username: {fileID: 0}
-  password: {fileID: 0}
-  buttonLogin: {fileID: 0}
-  buttonRegister: {fileID: 0}
+  username: {fileID: 2042259359}
+  password: {fileID: 781361708}
+  buttonLogin: {fileID: 1180802062}
 --- !u!1 &1826680249
 GameObject:
   m_ObjectHideFlags: 0
@@ -4886,7 +4896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &1832728136
 CanvasRenderer:
   m_ObjectHideFlags: 0

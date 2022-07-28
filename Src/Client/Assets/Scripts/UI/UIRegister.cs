@@ -13,9 +13,8 @@ public class UIRegister : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        UserService.Instance.OnRegister = this.OnRegister;
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		
@@ -45,6 +44,11 @@ public class UIRegister : MonoBehaviour {
         }
         UserService.Instance.SendRegister(this.username.text, this.password.text);
     }
-    
+
+    void OnRegister(SkillBridge.Message.Result result, string msg)
+    {
+        MessageBox.Show(string.Format("注册成功！result: {0} msg:{1}",result,msg));
+    }
+
 
 }

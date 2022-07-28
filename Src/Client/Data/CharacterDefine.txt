@@ -5,6 +5,7 @@
     "Type": "Normal",
     "Class": "WARRIOR",
     "Resource": "Character/Warrior",
+    "Description": "123",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -14,6 +15,7 @@
     "Type": "Normal",
     "Class": "WIZARD",
     "Resource": "Character/Wizard",
+    "Description": "123",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -23,6 +25,7 @@
     "Type": "Normal",
     "Class": "ARCHER",
     "Resource": "Character/Archer",
+    "Description": "123",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -32,6 +35,7 @@
     "Type": "Normal",
     "Class": "WARRIOR",
     "Resource": "Monster/M1001",
+    "Description": "123",
     "InitLevel": 1,
     "Speed": 300
   },

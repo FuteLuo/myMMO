@@ -7,6 +7,8 @@ using System.IO;
 
 using SkillBridge.Message;
 using ProtoBuf;
+using Services;
+//using Managers;
 
 public class LoadingManager : MonoBehaviour {
 
@@ -34,6 +36,10 @@ public class LoadingManager : MonoBehaviour {
         UILoading.SetActive(true);
         yield return new WaitForSeconds(1f);
         UITips.SetActive(false);
+
+        yield return DataManager.Instance.LoadData();
+
+        UserService.Instance.Init();
 
         for (float i = 20; i < 100;)
         {
