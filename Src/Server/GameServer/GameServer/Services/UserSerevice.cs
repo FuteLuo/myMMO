@@ -7,7 +7,7 @@ using Common;
 using Network;
 using SkillBridge.Message;
 using GameServer.Entities;
-//using GameServer.Managers;
+using GameServer.Managers;
 
 namespace GameServer.Services
 {
@@ -18,9 +18,12 @@ namespace GameServer.Services
         {
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserRegisterRequest>(this.OnRegister);
-          
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnCreateCharacter);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameEnterRequest>(this.OnGameEnter);
+
         }
 
+       
 
         public void Init()
         {
@@ -52,20 +55,20 @@ namespace GameServer.Services
 
                  message.Response.userLogin.Result = Result.Success;
                  message.Response.userLogin.Errormsg = "None";
-                 //message.Response.userLogin.Userinfo = new NUserInfo();
-                 //message.Response.userLogin.Userinfo.Id = (int)user.ID;
-                 //message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
-                 //message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
-                //foreach (var c in user.Player.Characters)
-                //{
-                //    NCharacterInfo info = new NCharacterInfo();
-                //    info.Id = c.ID;
-                //    info.Name = c.Name;
-                //    info.Type = CharacterType.Player;
-                //    info.Class = (CharacterClass)c.Class;
-                //    info.ConfigId = c.ID;
-                //    sender.Session.Response.userLogin.Userinfo.Player.Characters.Add(info);
-                //}
+                message.Response.userLogin.Userinfo = new NUserInfo();
+                message.Response.userLogin.Userinfo.Id = (int)user.ID;
+                message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
+                message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
+                foreach (var c in user.Player.Characters)
+                {
+                    NCharacterInfo info = new NCharacterInfo();
+                    info.Id = c.ID;
+                    info.Name = c.Name;
+                    info.Type = CharacterType.Player;
+                    info.Class = (CharacterClass)c.Class;
+                    //info.ConfigId = c.ID;
+                    message.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                }
 
             }
             byte[] data = PackageHandler.PackMessage(message);
@@ -99,61 +102,68 @@ namespace GameServer.Services
             sender.SendData(data, 0, data.Length);
         }
 
-        /*private void OnCreateCharacter(NetConnection<NetSession> sender, UserCreateCharacterRequest request)
+        private void OnCreateCharacter(NetConnection<NetSession> sender, UserCreateCharacterRequest request)
         {
             Log.InfoFormat("UserCreateCharacterRequest: Name:{0}  Class:{1}", request.Name, request.Class);
+
+            
 
             TCharacter character = new TCharacter()
             {
                 Name = request.Name,
                 Class = (int)request.Class,
                 TID = (int)request.Class,
-                Level = 1,
+                //Level = 1,
                 MapID = 1,
                 MapPosX = 5000, //初始出生位置X
                 MapPosY = 4000, //初始出生位置Y
                 MapPosZ = 820,
-                Gold = 100000, //初始10万金币
-                Equips = new byte[28]
+                //Gold = 100000, //初始10万金币
+                //Equips = new byte[28]
             };
-            var bag = new TCharacterBag();
-            bag.Owner = character;
-            bag.Items = new byte[0];
-            bag.Unlocked = 20;
-            character.Bag = DBService.Instance.Entities.CharacterBags.Add(bag);
+            //var bag = new TCharacterBag();
+            //bag.Owner = character;
+            //bag.Items = new byte[0];
+            //bag.Unlocked = 20;
+            //character.Bag = DBService.Instance.Entities.CharacterBags.Add(bag);
 
-            character = DBService.Instance.Entities.Characters.Add(character);
-            character.Items.Add(new TCharacterItem()
-            {
-                Owner = character,
-                ItemID = 1,
-                ItemCount = 20,
-            });
-            character.Items.Add(new TCharacterItem()
-            {
-                Owner = character,
-                ItemID = 2,
-                ItemCount = 20,
-            });
+            //character = DBService.Instance.Entities.Characters.Add(character);
+            //character.Items.Add(new TCharacterItem()
+            //{
+            //    Owner = character,
+            //    ItemID = 1,
+            //    ItemCount = 20,
+            //});
+            //character.Items.Add(new TCharacterItem()
+            //{
+            //    Owner = character,
+            //    ItemID = 2,
+            //    ItemCount = 20,
+            //});
+            DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.Player.Characters.Add(character);
-
             DBService.Instance.Entities.SaveChanges();
 
-            sender.Session.Response.createChar = new UserCreateCharacterResponse();
-            sender.Session.Response.createChar.Result = Result.Success;
-            sender.Session.Response.createChar.Errormsg = "None";
+            NetMessage message = new NetMessage();
+            message.Response = new NetMessageResponse();
+            message.Response.createChar = new UserCreateCharacterResponse();
+
+            message.Response.createChar.Result = Result.Success;
+            message.Response.createChar.Errormsg = "None";
+
 
             foreach (var c in sender.Session.User.Player.Characters)
             {
                 NCharacterInfo info = new NCharacterInfo();
                 info.Id = c.ID;
                 info.Name = c.Name;
-                info.Type = CharacterType.Player;
+                //info.Type = CharacterType.Player;
                 info.Class = (CharacterClass)c.Class;
-                info.ConfigId = c.TID;
-                sender.Session.Response.createChar.Characters.Add(info);
+                //info.ConfigId = c.TID;
+                message.Response.createChar.Characters.Add(info);
             }
-            sender.SendResponse();
+            byte[] data = PackageHandler.PackMessage(message);
+            sender.SendData(data, 0, data.Length);
         }
 
 
@@ -162,22 +172,25 @@ namespace GameServer.Services
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
             Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
-            SessionManager.Instance.AddSession(character.Id, sender);
-            sender.Session.Response.gameEnter = new UserGameEnterResponse();
-            sender.Session.Response.gameEnter.Result = Result.Success;
-            sender.Session.Response.gameEnter.Errormsg = "None";
+            NetMessage message = new NetMessage();
+            message.Response = new NetMessageResponse();
+            message.Response.gameEnter = new UserGameEnterResponse();
+            message.Response.gameEnter.Result = Result.Success;
+            message.Response.gameEnter.Errormsg = "None";
 
             //进入成功，发送初始角色信息
+            byte[] data = PackageHandler.PackMessage(message);
+            sender.SendData(data, 0, data.Length);
             sender.Session.Character = character;
-            sender.Session.PostResponser = character;
+            //sender.Session.PostResponser = character;
 
-            sender.Session.Response.gameEnter.Character = character.Info;
-            sender.SendResponse();
+            //sender.Session.Response.gameEnter.Character = character.Info;
+            //sender.SendResponse();
 
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }
 
-        void OnGameLeave(NetConnection<NetSession> sender, UserGameLeaveRequest request)
+        /*void OnGameLeave(NetConnection<NetSession> sender, UserGameLeaveRequest request)
         {
             Character character = sender.Session.Character;
             Log.InfoFormat("UserGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);

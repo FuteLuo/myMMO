@@ -12,7 +12,7 @@ public class UILogin : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        UserService.Instance.OnLogin = this.OnLogin;
+        UserService.Instance.OnLogin = OnLogin;
     }
 	
 	// Update is called once per frame
@@ -41,7 +41,8 @@ public class UILogin : MonoBehaviour {
     {
         if(result == SkillBridge.Message.Result.Success)
         {
-            MessageBox.Show(string.Format("登陆成功！请稍后... result: {0}, msg:{1}", result, msg));
+            //MessageBox.Show(string.Format("登陆成功！请稍后... result: {0}, msg:{1}", result, msg));
+            SceneManager.Instance.LoadScene("CharSelect");
 
         }
         else
