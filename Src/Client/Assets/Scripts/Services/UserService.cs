@@ -8,7 +8,7 @@ using UnityEngine;
 
 using SkillBridge.Message;
 using Models;
-//using Managers;
+using Managers;
 
 namespace Services
 {
@@ -253,19 +253,14 @@ namespace Services
 
         }
 
-        private void OnGameLeave(object sender, UserGameLeaveResponse message)
+        void OnGameLeave(object sender, UserGameLeaveResponse message)
         {
-            //MapService
+            MapService.Instance.CurrentMapId = 0;
+            User.Instance.CurrentCharacter = null;
             Debug.LogFormat("OnGameLeave:{0} [{1}]", message.Result, message.Errormsg);
         }
 
-
-        private void OnCharacterEnter(object sender, MapCharacterEnterResponse message)
-        {
-            
-           
-           
-        }
+        
 
         
 

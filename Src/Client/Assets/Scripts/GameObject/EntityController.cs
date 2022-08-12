@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Entities;
 using SkillBridge.Message;
+using Managers;
 
-public class EntityController : MonoBehaviour {
+public class EntityController : MonoBehaviour, IEntityNotify {
 
 
     public Animator anim;
@@ -31,6 +32,7 @@ public class EntityController : MonoBehaviour {
     void Start () {
         if(entity != null)
         {
+            EntityManager.Instance.RegisterEntityChangeNotify(entity.entityId, this);
             this.UpdateTransform();
 
         }
@@ -56,7 +58,10 @@ public class EntityController : MonoBehaviour {
         if(entity != null)
         {
             Debug.LogFormat("{0} OnDestroy :ID{1} POS:{2} DIR:{3} SPD:{4}", this.name, entity.entityId, entity.position, entity.direction, entity.speed);
-
+            if(UIWorldElementManager.Instance != null)
+            {
+                UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
+            }
         }
     }
 
@@ -72,6 +77,13 @@ public class EntityController : MonoBehaviour {
         {
             this.UpdateTransform();
         }
+    }
+
+    public void OnEntityRemoved()
+    {
+        if (UIWorldElementManager.Instance != null)
+            UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
+        Destroy(this.gameObject);
     }
 
     public void OnEntityEvent(EntityEvent entityEvent)
@@ -93,5 +105,10 @@ public class EntityController : MonoBehaviour {
                 break;
 
         }
+    }
+
+    public void OnEntityChanged(Entity entity)
+    {
+        Debug.LogFormat("MapEntityChanged : ID:{0} POS:{1} DIR:{2} SPD:{3}", entity.entityId, entity.position, entity.direction, entity.speed);
     }
 }

@@ -11,6 +11,7 @@ using Common.Data;
 using Network;
 using GameServer.Managers;
 using GameServer.Entities;
+using GameServer.Services;
 
 namespace GameServer.Models
 {
@@ -46,6 +47,8 @@ namespace GameServer.Models
         {
         }
 
+
+
         /// <summary>
         /// 角色进入地图
         /// </summary>
@@ -75,6 +78,17 @@ namespace GameServer.Models
             conn.SendData(data, 0, data.Length);
         }
 
+        internal void CharacterLeave(Character cha)
+        {
+            Log.InfoFormat("CharacterLeave: Map:{0} characterId:{1}", this.Define.ID, cha.Id);
+            foreach(var kv in this.MapCharacters)
+            {
+                this.SendCharacterLeaveMap(kv.Value.connection, cha);
+            }
+            this.MapCharacters.Remove(cha.Id);
+        }
+
+
         void SendCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
         {
             NetMessage message = new NetMessage();
@@ -86,6 +100,36 @@ namespace GameServer.Models
 
             byte[] data = PackageHandler.PackMessage(message);
             conn.SendData(data, 0, data.Length);
+        }
+
+        void SendCharacterLeaveMap(NetConnection<NetSession> conn, Character character)
+        {
+            NetMessage message = new NetMessage();
+            message.Response = new NetMessageResponse();
+
+            message.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
+            message.Response.mapCharacterLeave.characterId = character.Id;
+            
+
+            byte[] data = PackageHandler.PackMessage(message);
+            conn.SendData(data, 0, data.Length);
+        }
+
+        internal void UpdateEntity(NEntitySync entitySync)
+        {
+            foreach(var kv in this.MapCharacters)
+            {
+                if(kv.Value.character.entityId == entitySync.Id)
+                {
+                    kv.Value.character.Position = entitySync.Entity.Position;
+                    kv.Value.character.Direction = entitySync.Entity.Direction;
+                    kv.Value.character.Speed = entitySync.Entity.Speed;
+                }
+                else
+                {
+                    MapService.Instance.SendEntityUpdate(kv.Value.connection, entitySync);
+                }
+            }
         }
     }
 }
