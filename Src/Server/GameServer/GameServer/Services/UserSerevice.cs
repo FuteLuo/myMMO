@@ -180,6 +180,23 @@ namespace GameServer.Services
             message.Response.gameEnter = new UserGameEnterResponse();
             message.Response.gameEnter.Result = Result.Success;
             message.Response.gameEnter.Errormsg = "None";
+            message.Response.gameEnter.Character = character.Info;
+
+            //Item system Test
+            int itemId = 2;
+            bool hasItem = character.ItemManager.HasItem(itemId);
+            Log.InfoFormat("HasItem:[{0}]{1}", itemId, hasItem);
+            if(hasItem)
+            {
+                character.ItemManager.RemoveItem(itemId, 1);
+            }
+            else
+            {
+                character.ItemManager.AddItem(itemId, 5);
+            }
+            Models.Item item = character.ItemManager.GetItem(itemId);
+
+            Log.InfoFormat("Item: [{0}][{1}]", itemId, item);
 
             //??????????¡¤???????????????
             byte[] data = PackageHandler.PackMessage(message);

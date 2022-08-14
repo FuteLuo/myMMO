@@ -8,6 +8,7 @@ using System.IO;
 using SkillBridge.Message;
 using ProtoBuf;
 using Services;
+using Managers;
 //using Managers;
 
 public class LoadingManager : MonoBehaviour {
@@ -41,6 +42,7 @@ public class LoadingManager : MonoBehaviour {
 
         MapService.Instance.Init();
         UserService.Instance.Init();
+        TestManager.Instance.Init();
 
         for (float i = 20; i < 100;)
         {

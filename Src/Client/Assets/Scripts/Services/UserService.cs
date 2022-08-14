@@ -238,7 +238,10 @@ namespace Services
 
             if(message.Result == Result.Success)
             {
-
+                if(message.Character != null)
+                {
+                    ItemManager.Instance.Init(message.Character.Items);
+                }
             }
 
         }
