@@ -118,19 +118,17 @@ namespace GameServer.Services
                 TID = (int)request.Class,
                 //Level = 1,
                 MapID = 1,
-                MapPosX = 5000, //???????¨²????X
-                MapPosY = 4000, //???????¨²????Y
+                MapPosX = 5000, //Initial respone positionX
+                MapPosY = 4000, //Initial respone positionY
                 MapPosZ = 820,
                 //Gold = 100000, //????10?¨°??¡À?
                 //Equips = new byte[28]
             };
-            //var bag = new TCharacterBag();
-            //bag.Owner = character;
-            //bag.Items = new byte[0];
-            //bag.Unlocked = 20;
-            //character.Bag = DBService.Instance.Entities.CharacterBags.Add(bag);
-
-            //character = DBService.Instance.Entities.Characters.Add(character);
+            var bag = new TCharacterBag();
+            bag.Owner = character;
+            bag.Items = new byte[0];
+            bag.Unlocked = 10;
+            character.Bag = DBService.Instance.Entities.TCharacterBags.Add(bag);
             //character.Items.Add(new TCharacterItem()
             //{
             //    Owner = character,
@@ -180,6 +178,7 @@ namespace GameServer.Services
             message.Response.gameEnter = new UserGameEnterResponse();
             message.Response.gameEnter.Result = Result.Success;
             message.Response.gameEnter.Errormsg = "None";
+
             message.Response.gameEnter.Character = character.Info;
 
             //Item system Test
@@ -188,17 +187,22 @@ namespace GameServer.Services
             Log.InfoFormat("HasItem:[{0}]{1}", itemId, hasItem);
             if(hasItem)
             {
-                character.ItemManager.RemoveItem(itemId, 1);
+                //character.ItemManager.RemoveItem(itemId, 1);
             }
             else
             {
-                character.ItemManager.AddItem(itemId, 5);
+                character.ItemManager.AddItem(1, 200);
+                character.ItemManager.AddItem(2, 100);
+                character.ItemManager.AddItem(3, 30);
+                character.ItemManager.AddItem(4, 120);
+
             }
             Models.Item item = character.ItemManager.GetItem(itemId);
 
             Log.InfoFormat("Item: [{0}][{1}]", itemId, item);
+            DBService.Instance.Save();
 
-            //??????????¡¤???????????????
+           
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
             sender.Session.Character = character;

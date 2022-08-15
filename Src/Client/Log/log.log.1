@@ -1,55 +1,62 @@
-2022-08-14 21:36:46,859 [ 1] INFO  Unity: LoadingManager start
-2022-08-14 21:36:51,400 [ 1] INFO  Unity: DataManager > DataManager()
-2022-08-14 21:37:02,572 [ 1] INFO  Unity: UserLoginRequest::user :user234 psw:234234
-2022-08-14 21:37:02,574 [ 1] INFO  Unity: ConnectToServer() Start 
-2022-08-14 21:37:02,576 [ 1] INFO  Unity: DoConnect
-2022-08-14 21:37:02,578 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2022-08-14 21:37:02,580 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2022-08-15 21:42:05,165 [ 1] INFO  Unity: LoadingManager start
+2022-08-15 21:42:08,319 [ 1] INFO  Unity: DataManager > DataManager()
+2022-08-15 21:43:18,061 [ 1] INFO  Unity: UserLoginRequest::user :user234 psw:234234
+2022-08-15 21:43:18,063 [ 1] INFO  Unity: ConnectToServer() Start 
+2022-08-15 21:43:18,065 [ 1] INFO  Unity: DoConnect
+2022-08-15 21:43:18,068 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2022-08-15 21:43:18,070 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2022-08-14 21:37:02,585 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2022-08-14 21:37:05,901 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2022-08-14 21:37:05,916 [ 1] INFO  Unity: LoadLevel: CharSelect
-2022-08-14 21:37:06,300 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-08-14 21:37:07,843 [ 1] INFO  Unity: Select Char:[11]234234[Wizard]
-2022-08-14 21:37:08,789 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2022-08-14 21:37:09,302 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2022-08-14 21:37:09,304 [ 1] INFO  Unity: ItemManager:Init[System.Collections.Generic.List`1[SkillBridge.Message.NItemInfo]]
-2022-08-14 21:37:09,306 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
-2022-08-14 21:37:09,308 [ 1] INFO  Unity: AddCharacter:1:234234 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2022-08-14 21:37:09,313 [ 1] INFO  Unity: LoadLevel: MainCity
-2022-08-14 21:37:10,005 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-08-15 21:43:18,073 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2022-08-15 21:43:21,085 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2022-08-15 21:43:21,087 [ 1] INFO  Unity: LoadLevel: CharSelect
+2022-08-15 21:43:21,382 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-08-15 21:43:22,430 [ 1] INFO  Unity: Select Char:[1]hihi[Wizard]
+2022-08-15 21:43:23,104 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2022-08-15 21:43:23,328 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2022-08-15 21:43:23,331 [ 1] INFO  Unity: ItemManager:Init[ID:1, Count:200]
+2022-08-15 21:43:23,332 [ 1] INFO  Unity: ItemManager:Init[ID:2, Count:100]
+2022-08-15 21:43:23,333 [ 1] INFO  Unity: ItemManager:Init[ID:3, Count:30]
+2022-08-15 21:43:23,335 [ 1] INFO  Unity: ItemManager:Init[ID:4, Count:120]
+2022-08-15 21:43:23,336 [ 1] INFO  Unity: ItemManager:Init[ID:5, Count:3]
+2022-08-15 21:43:23,337 [ 1] INFO  Unity: ItemManager:Init[ID:6, Count:100]
+2022-08-15 21:43:23,340 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00102] in C:\Users\User\Desktop\myMMO\Src\Client\Assets\Scripts\Managers\BagManager.cs:55 
+  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in C:\Users\User\Desktop\myMMO\Src\Client\Assets\Scripts\Managers\BagManager.cs:31 
+  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse message) [0x00065] in C:\Users\User\Desktop\myMMO\Src\Client\Assets\Scripts\Services\UserService.cs:244 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in C:\Users\User\Desktop\myMMO\Src\Lib\Common\Network\MessageDistributer.cs:105 
+2022-08-15 21:43:23,341 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:55)
+Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:31)
+Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse message) (at Assets/Scripts/Services/UserService.cs:244)
+Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at C:/Users/User/Desktop/myMMO/Src/Lib/Common/Network/MessageDistributer.cs:105)
+}</args></log4net.Error>
+2022-08-15 21:43:23,353 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
+2022-08-15 21:43:23,356 [ 1] INFO  Unity: AddCharacter:1:hihi Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2022-08-15 21:43:23,359 [ 1] INFO  Unity: LoadLevel: MainCity
+2022-08-15 21:43:24,094 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2022-08-14 21:37:10,005 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-08-15 21:43:24,094 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2022-08-14 21:37:10,171 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-08-14 21:38:44,681 [ 1] INFO  Unity: MoveForward
-2022-08-14 21:38:44,684 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:1 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-08-14 21:38:44,900 [ 1] INFO  Unity: Stop
-2022-08-14 21:38:44,901 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:1 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-08-14 21:38:45,676 [ 1] INFO  Unity: LoadLevel: CharSelect
-2022-08-14 21:38:45,677 [ 1] INFO  Unity: UserGameLeaveRequest
-2022-08-14 21:38:45,863 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:1
-2022-08-14 21:38:45,868 [ 1] INFO  Unity: RemoveCharacter:1
-2022-08-14 21:38:45,872 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2022-08-14 21:38:45,873 [ 1] INFO  Unity: Character_1_234234 OnDestroy :ID1 POS:(5065, 4000, 820) DIR:(100, 0, 0) SPD:0
-2022-08-14 21:38:45,995 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-08-14 21:38:48,271 [ 1] INFO  Unity: Select Char:[11]234234[Wizard]
-2022-08-14 21:38:49,028 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2022-08-14 21:38:49,079 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2022-08-14 21:38:49,081 [ 1] INFO  Unity: ItemManager:Init[System.Collections.Generic.List`1[SkillBridge.Message.NItemInfo]]
-2022-08-14 21:38:49,084 [ 1] INFO  Unity: ItemManager:Init[System.Collections.Generic.List`1[SkillBridge.Message.NItemInfo]]
-2022-08-14 21:38:49,086 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
-2022-08-14 21:38:49,089 [ 1] INFO  Unity: AddCharacter:2:234234 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2022-08-14 21:38:49,107 [ 1] INFO  Unity: LoadLevel: MainCity
-2022-08-14 21:38:49,802 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-08-15 21:43:24,205 [ 1] WARN  Unity: MainPlayerCamera[126178] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-08-14 21:38:49,802 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-08-15 21:43:24,206 [ 1] WARN  Unity: UIMain[126766] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-08-14 21:38:49,967 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-08-14 21:41:04,828 [ 1] INFO  Unity: Character_2_234234 OnDestroy :ID2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0
-2022-08-14 21:41:04,830 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2022-08-14 21:41:04,832 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2022-08-15 21:43:24,207 [ 1] WARN  Unity: GameObjectManager[127802] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-08-15 21:43:24,224 [ 1] WARN  Unity: UIWorldElementManager[127842] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-08-15 21:43:24,255 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-08-15 21:43:42,727 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2022-08-15 21:43:42,728 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 
+2022-08-15 21:43:42,732 [ 1] INFO  Unity: Character_1_hihi OnDestroy :ID1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0

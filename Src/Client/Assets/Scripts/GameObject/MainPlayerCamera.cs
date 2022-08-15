@@ -9,11 +9,11 @@ public class MainPlayerCamera : MonoSingleton<MainPlayerCamera>
     public Transform viewPoint;
 
     public GameObject player;
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    protected override void OnStart()
+    {
+
+    }
 
     private void LateUpdate()
     {
