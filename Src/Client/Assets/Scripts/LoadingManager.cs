@@ -42,7 +42,7 @@ public class LoadingManager : MonoBehaviour {
 
         MapService.Instance.Init();
         UserService.Instance.Init();
-        TestManager.Instance.Init();
+        ShopManager.Instance.Init();
 
         for (float i = 20; i < 100;)
         {

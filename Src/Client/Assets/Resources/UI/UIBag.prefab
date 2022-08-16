@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 016ec534588946f489525711e97b973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: {fileID: 0}
+  money: {fileID: 114507035465989878}
   pages:
   - {fileID: 224967547683955160}
   - {fileID: 224020594402515720}

@@ -47,6 +47,8 @@ public class UIMain : MonoSingleton<UIMain> {
 
     public void OnClickBag()
     {
-        UIManager.Instance.Show<UIBag>();
+        UIBag uiBag = UIManager.Instance.Show<UIBag>();
+        uiBag.SetTitle(User.Instance.CurrentCharacter.Gold.ToString());
+
     }
 }

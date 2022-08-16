@@ -29,7 +29,6 @@ namespace GameServer.Services
 
         public void Init()
         {
-            Log.InfoFormat("中文 中文");
 
         }
 
@@ -121,13 +120,13 @@ namespace GameServer.Services
                 MapPosX = 5000, //Initial respone positionX
                 MapPosY = 4000, //Initial respone positionY
                 MapPosZ = 820,
-                //Gold = 100000, //????10?¨°??¡À?
+                Gold = 100000, //Initial 100k gold
                 //Equips = new byte[28]
             };
             var bag = new TCharacterBag();
             bag.Owner = character;
             bag.Items = new byte[0];
-            bag.Unlocked = 10;
+            bag.Unlocked = 15;
             character.Bag = DBService.Instance.Entities.TCharacterBags.Add(bag);
             //character.Items.Add(new TCharacterItem()
             //{

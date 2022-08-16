@@ -19,7 +19,10 @@ namespace Managers
                 eventMap[function] = action;
             }
             else
+            {
                 eventMap[function] += action;
+            }
+                
         }
 
         public NpcDefine GetNpcDefine(int npcID)
