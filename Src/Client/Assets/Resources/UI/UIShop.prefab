@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 114008818619061334}
   money: {fileID: 114765108530900980}
-  shopItem: {fileID: 1381134349334890, guid: 49d8fb1e6883d274e8f2fb189f265d5e, type: 2}
+  shopItem: {fileID: 1998580892786704, guid: aca6259867dde50479529b96dfee7f69, type: 2}
   itemRoot:
   - {fileID: 224516903322965588}
   - {fileID: 224136692101839732}
