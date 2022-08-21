@@ -31,10 +31,15 @@ public class UIQuestInfo : MonoBehaviour {
 ;       }
         else
         {
-            if(quest.Info.Status == SkillBridge.Message.QuestStatus.Completed)
+            if(quest.Info.Status == SkillBridge.Message.QuestStatus.Finished)
             {
                 this.description.text = quest.Define.DialogFinish;
             }
+            if (quest.Info.Status == SkillBridge.Message.QuestStatus.InProgress)
+            {
+                this.description.text = quest.Define.DialogIncomplete;
+            }
+
         }
 
         this.rewardMoney.text = quest.Define.RewardGold.ToString();

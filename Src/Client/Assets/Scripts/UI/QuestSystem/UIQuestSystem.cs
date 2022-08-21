@@ -28,7 +28,7 @@ public class UIQuestSystem : UIWindow
         RefreshUI();
     }
 
-    public void OnSelectTab(int idx)
+    void OnSelectTab(int idx)
     {
         showAvailableList = idx == 1;
         RefreshUI();
@@ -37,12 +37,6 @@ public class UIQuestSystem : UIWindow
     private void OnDestroy()
     {
         
-    }
-
-    public void OnQuestSelected(ListView.ListViewItem item)
-    {
-        UIQuestItem questItem = item as UIQuestItem;
-        this.questInfo.SetQuestInfo(questItem.quest);
     }
 
     private void RefreshUI()
@@ -71,11 +65,20 @@ public class UIQuestSystem : UIWindow
             GameObject go = Instantiate(itemPrefab, kv.Value.Define.Type == QuestType.Main ? this.listMain.transform : this.listBranch.transform);
             UIQuestItem ui = go.GetComponent<UIQuestItem>();
             ui.SetQuestInfo(kv.Value);
-            if (kv.Value.Define.Type == QuestType.Main)
-                this.listMain.AddItem(ui);
-            else
-                this.listBranch.AddItem(ui);
+            //if (kv.Value.Define.Type == QuestType.Main)
+            //    this.listMain.AddItem(ui);
+            //else
+            //    this.listBranch.AddItem(ui);
+
+            this.listMain.AddItem(ui);
+            this.listBranch.AddItem(ui);
         }
+    }
+
+    public void OnQuestSelected(ListView.ListViewItem item)
+    {
+        UIQuestItem questItem = item as UIQuestItem;
+        this.questInfo.SetQuestInfo(questItem.quest);
     }
 
     private void ClearAllQuestList()

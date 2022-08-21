@@ -194,7 +194,7 @@ namespace Managers
             {
                 if(dlg.quest.Info == null)
                 {
-                    MessageBox.Show(dlg.quest.Define.DialogAccept);
+                    QuestService.Instance.SendQuestAccept(dlg.quest);
                 }
                 else if(dlg.quest.Info.Status == QuestStatus.Completed)
                 {
