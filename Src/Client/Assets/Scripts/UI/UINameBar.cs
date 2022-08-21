@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class UINameBar : MonoBehaviour
 {
 
@@ -23,8 +24,6 @@ public class UINameBar : MonoBehaviour
     void Update()
     {
         this.UpdateInfo();
-
-        this.transform.forward = Camera.main.transform.forward;
     }
 
     void UpdateInfo()

@@ -4,6 +4,7 @@ using UnityEngine;
 using Common.Data;
 using Managers;
 using Models;
+using System;
 
 public class NpcController : MonoBehaviour {
 
@@ -17,13 +18,34 @@ public class NpcController : MonoBehaviour {
     private bool inInteractive = false;
 
     NpcDefine npc;
+
+    NpcQuestStatus questStatus;
 	// Use this for initialization
 	void Start () {
         renderer = this.gameObject.GetComponentInChildren<SkinnedMeshRenderer>();
         anim = this.gameObject.GetComponent<Animator>();
         npc = NpcManager.Instance.GetNpcDefine(this.npcId);
         this.StartCoroutine(Actions());
+        RefreshNpcStatus();
+        QuestManager.Instance.onQuestStatusChanged += OnQuestStatusChanged;
 	}
+
+    private void OnQuestStatusChanged(Quest quest)
+    {
+        this.RefreshNpcStatus();
+    }
+    void RefreshNpcStatus()
+    {
+        questStatus = QuestManager.Instance.GetQuestStatusByNpc(this.npcId);
+        UIWorldElementManager.Instance.AddNpcQuestStatus(this.transform, questStatus);
+    }
+
+    private void OnDestroy()
+    {
+        QuestManager.Instance.onQuestStatusChanged -= OnQuestStatusChanged;
+        if (UIWorldElementManager.Instance != null)
+            UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
+    }
 
     IEnumerator Actions()
     {
@@ -32,7 +54,7 @@ public class NpcController : MonoBehaviour {
             if (inInteractive)
                 yield return new WaitForSeconds(2f);
             else
-                yield return new WaitForSeconds(Random.Range(5f, 10f));
+                yield return new WaitForSeconds(UnityEngine.Random.Range(5f, 10f));
 
             this.Relax();
         }
