@@ -60,5 +60,10 @@ public class UIMain : MonoSingleton<UIMain> {
     {
         UIManager.Instance.Show<UIQuestSystem>();
     }
+
+    public void OnClickFriend()
+    {
+        UIManager.Instance.Show<UIFriends>();
+    }
 }
 

@@ -8,6 +8,7 @@ using UnityEngine;
 using Models;
 using Common.Data;
 using Managers;
+using Entities;
 
 namespace Services
 {
@@ -22,6 +23,8 @@ namespace Services
 
 
         public int CurrentMapId = 0;
+
+        public Character character;
 
         public void Dispose()
         {
@@ -40,7 +43,7 @@ namespace Services
             Debug.LogFormat("OnMapCharacterEnter:{0} Count:{1}", message.mapId, message.Characters.Count);
             foreach(var cha in message.Characters)
             {
-                if(User.Instance.CurrentCharacter == null || User.Instance.CurrentCharacter.Id == cha.Id)
+                if(User.Instance.CurrentCharacter == null || (cha.Type == CharacterType.Player && User.Instance.CurrentCharacter.Id == cha.Id ))
                 {
                     User.Instance.CurrentCharacter = cha;
                 }
@@ -56,10 +59,10 @@ namespace Services
 
         private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse message)
         {
-            Debug.LogFormat("OnMapCharacterLeave:CharID:{0}", message.characterId);
-            if(message.characterId != User.Instance.CurrentCharacter.Id)
+            Debug.LogFormat("OnMapCharacterLeave:CharID:{0}", message.entityId);
+            if(message.entityId != User.Instance.CurrentCharacter.EntityId)
             {
-                CharacterManager.Instance.RemoveCharacter(message.characterId);
+                CharacterManager.Instance.RemoveCharacter(message.entityId);
             }
             else
             {
