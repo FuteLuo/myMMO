@@ -1,18 +1,57 @@
-2022-08-24 15:30:37,319 [ 1] INFO  Unity: LoadingManager start
-2022-08-24 15:30:40,375 [ 1] INFO  Unity: DataManager > DataManager()
-2022-08-24 15:30:52,472 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
-2022-08-24 15:30:52,473 [ 1] INFO  Unity: ConnectToServer() Start 
-2022-08-24 15:30:52,474 [ 1] INFO  Unity: DoConnect
-2022-08-24 15:30:52,475 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2022-08-24 15:30:52,476 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2022-09-01 14:35:48,114 [ 1] INFO  Unity: LoadingManager start
+2022-09-01 14:35:51,164 [ 1] INFO  Unity: DataManager > DataManager()
+2022-09-01 14:35:54,024 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
+2022-09-01 14:35:54,025 [ 1] INFO  Unity: ConnectToServer() Start 
+2022-09-01 14:35:54,026 [ 1] INFO  Unity: DoConnect
+2022-09-01 14:35:54,027 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2022-09-01 14:35:54,028 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2022-08-24 15:30:52,478 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2022-08-24 15:30:54,021 [ 1] INFO  Unity: OnUserLogin:Failed [用户不存在]
-2022-08-24 15:30:59,880 [ 1] INFO  Unity: UserRegisterRequest::user :123 psw:123
-2022-08-24 15:31:00,133 [ 1] INFO  Unity: OnUserRegister:Success [None]
-2022-08-24 15:31:01,912 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2022-08-24 15:31:01,912 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2022-09-01 14:35:54,030 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2022-09-01 14:35:54,112 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2022-09-01 14:35:54,113 [ 1] INFO  Unity: LoadLevel: CharSelect
+2022-09-01 14:35:54,238 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-09-01 14:35:55,247 [ 1] INFO  Unity: Select Char:[2]123[Warrior]
+2022-09-01 14:35:55,664 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2022-09-01 14:35:55,681 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2022-09-01 14:35:55,683 [ 1] INFO  Unity: ItemManager:Init[ID:1, Count:20]
+2022-09-01 14:35:55,683 [ 1] INFO  Unity: ItemManager:Init[ID:2, Count:20]
+2022-09-01 14:35:55,690 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
+2022-09-01 14:35:55,691 [ 1] INFO  Unity: AddCharacter:2:123 Map:1 Entity:(14:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2022-09-01 14:35:55,693 [ 1] INFO  Unity: LoadLevel: MainCity
+2022-09-01 14:35:56,005 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2022-09-01 14:35:56,008 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2022-09-01 14:35:56,072 [ 1] WARN  Unity: MainPlayerCamera[137434] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-09-01 14:35:56,073 [ 1] WARN  Unity: UIMain[138168] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-09-01 14:35:56,074 [ 1] WARN  Unity: GameObjectManager[139424] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-09-01 14:35:56,080 [ 1] WARN  Unity: UIWorldElementManager[139476] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2022-09-01 14:35:56,107 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-09-01 14:35:56,156 [ 1] INFO  Unity: Set Channel:Local
+2022-09-01 14:36:05,409 [ 1] INFO  Unity: Set Channel:Private
+2022-09-01 14:36:09,742 [ 1] INFO  Unity: Set Channel:Local
+2022-09-01 14:36:29,571 [ 1] INFO  Unity: SendBuyItem
+2022-09-01 14:36:33,885 [ 1] INFO  Unity: Set Channel:World
+2022-09-01 14:36:35,455 [ 1] INFO  Unity: SendBuyItem
+2022-09-01 14:36:42,368 [ 1] INFO  Unity: SendBuyItem
+2022-09-01 14:36:48,422 [ 1] INFO  Unity: Set Channel:Local
+2022-09-01 14:36:50,824 [ 1] INFO  Unity: SendBuyItem
+2022-09-01 14:36:53,317 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2022-09-01 14:36:53,318 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 
+2022-09-01 14:36:53,321 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID14 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0

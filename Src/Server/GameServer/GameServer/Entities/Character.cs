@@ -24,7 +24,12 @@ namespace GameServer.Entities
         public FriendManager FriendManager;
 
         public Team Team;
-        public int TeamUpdateTS;
+        public double TeamUpdateTS;
+
+        public Guild Guild;
+        public double GuildUpdateTS;
+
+        public Chat Chat;
 
 
         public Character(CharacterType type, TCharacter cha) :
@@ -41,6 +46,7 @@ namespace GameServer.Entities
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
             this.Info.Gold = cha.Gold;
+            this.Info.Ride = 0;
             this.Info.Entity = this.EntityData;
             this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
 
@@ -50,11 +56,17 @@ namespace GameServer.Entities
             this.Info.Bag.Unlocked = this.Data.Bag.Unlocked;
             this.Info.Bag.Items = this.Data.Bag.Items;
             this.Info.Equips = this.Data.Equips;
+
             this.QuestManager = new QuestManager(this);
             this.QuestManager.GetQuestInfos(this.Info.Quests);
+
             this.StatusManager = new StatusManager(this);
             this.FriendManager = new FriendManager(this);
             this.FriendManager.GetFriendInfos(this.Info.Friends);
+
+            this.Guild = GuildManager.Instance.GetGuild(this.Data.GuildId);
+
+            this.Chat = new Chat(this);
         }
 
         public long Gold
@@ -66,6 +78,17 @@ namespace GameServer.Entities
                     return;
                 this.StatusManager.AddGoldChange((int)(value - this.Data.Gold));
                 this.Data.Gold = value;
+            }
+        }
+
+        public int Ride
+        {
+            get { return this.Info.Ride; }
+            set
+            {
+                if (this.Info.Ride == value)
+                    return;
+                this.Info.Ride = value;
             }
         }
 
@@ -84,10 +107,28 @@ namespace GameServer.Entities
                 }
             }
 
+            if(this.Guild != null)
+            {
+                Log.InfoFormat("PostProcess > Guild: characterID:{0}:{1} {2}<{3}", this.Id, this.Info.Name, GuildUpdateTS, this.Guild.timestamp);
+                if(this.Info.Guild == null)
+                {
+                    this.Info.Guild = this.Guild.GuildInfo(this);
+                    if (message.mapCharacterEnter != null)
+                        GuildUpdateTS = Guild.timestamp;
+                }
+                if (GuildUpdateTS < this.Guild.timestamp && message.mapCharacterEnter == null)
+                {
+                    GuildUpdateTS = Guild.timestamp;
+                    this.Guild.PostProcess(this, message);
+                }
+            }
+
             if(this.StatusManager.HasStatus)
             {
                 this.StatusManager.PostProcess(message);
             }
+
+            this.Chat.PostProcess(message);
         }
 
         public void Clear()

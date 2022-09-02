@@ -89,6 +89,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
             Log.InfoFormat("OnTeamLeave: :character:{0} TeamID:{1} : {2}", character.Id, message.TeamId, message.characterId);
             sender.Session.Response.teamLeave = new TeamLeaveResponse();
+            character.Team.Leave(character);
             sender.Session.Response.teamLeave.Result = Result.Success;
             sender.Session.Response.teamLeave.characterId = message.characterId;
             sender.SendResponse();

@@ -831,8 +831,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114046339954860294}
   m_HandleRect: {fileID: 224291662858352712}
   m_Direction: 2
-  m_Value: 0.99999774
-  m_Size: 0.9614284
+  m_Value: 0.99999547
+  m_Size: 0.96142846
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1030,6 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06e5fcad1c134d4e92815543a174c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Root: {fileID: 1862677842153022}
   questInfo: {fileID: 114665032642592070}
   openButtons: {fileID: 1409681136875230}
   submitButtons: {fileID: 1903039268295642}
@@ -2244,7 +2245,7 @@ RectTransform:
   m_Father: {fileID: 224436648159034840}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.03857151}
+  m_AnchorMin: {x: 0, y: 0.03857136}
   m_AnchorMax: {x: 1, y: 0.9999998}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -2727,8 +2728,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 354.395, y: -16.628849}
-  m_SizeDelta: {x: 708.79, y: 33.257698}
+  m_AnchoredPosition: {x: 354.395, y: -15.274543}
+  m_SizeDelta: {x: 708.79, y: 30.549086}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224982978671364556
 RectTransform:

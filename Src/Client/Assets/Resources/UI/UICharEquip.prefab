@@ -1139,6 +1139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3daa8916e9d8af429ec58820b0ac7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Root: {fileID: 1603741149713308}
   title: {fileID: 114757284468872046}
   money: {fileID: 114508526489148664}
   itemPrefab: {fileID: 1971211564620592, guid: 6995e6250e4c4a04f95e5b101d616f8d, type: 2}

@@ -35,7 +35,7 @@ namespace Services
             MessageDistributer.Instance.Unsubscribe<FriendAddRequest>(this.OnFriendAddRequest);
             MessageDistributer.Instance.Unsubscribe<FriendAddResponse>(this.OnFriendAddResponse);
             MessageDistributer.Instance.Unsubscribe<FriendListResponse>(this.OnFriendList);
-            MessageDistributer.Instance.Subscribe<FriendRemoveResponse>(this.OnFriendRemove);
+            MessageDistributer.Instance.Unsubscribe<FriendRemoveResponse>(this.OnFriendRemove);
         }
 
 
