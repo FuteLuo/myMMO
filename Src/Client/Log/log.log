@@ -1,506 +1,425 @@
-2022-09-02 13:20:16,084 [ 1] INFO  Unity: LoadingManager start
-2022-09-02 13:20:19,294 [ 1] INFO  Unity: DataManager > DataManager()
-2022-09-02 13:20:22,349 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
-2022-09-02 13:20:22,350 [ 1] INFO  Unity: ConnectToServer() Start 
-2022-09-02 13:20:22,351 [ 1] INFO  Unity: DoConnect
-2022-09-02 13:20:22,352 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2022-09-02 13:20:22,354 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2022-09-04 18:58:31,999 [ 1] INFO  Unity: LoadingManager start
+2022-09-04 18:58:35,003 [ 1] INFO  Unity: DataManager > DataManager()
+2022-09-04 18:58:40,304 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
+2022-09-04 18:58:40,305 [ 1] INFO  Unity: ConnectToServer() Start 
+2022-09-04 18:58:40,306 [ 1] INFO  Unity: DoConnect
+2022-09-04 18:58:40,307 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2022-09-04 18:58:40,308 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2022-09-02 13:20:22,355 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2022-09-02 13:20:22,438 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2022-09-02 13:20:22,440 [ 1] INFO  Unity: LoadLevel: CharSelect
-2022-09-02 13:20:22,577 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-09-02 13:20:23,450 [ 1] INFO  Unity: Select Char:[2]123[Warrior]
-2022-09-02 13:20:24,226 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2022-09-02 13:20:24,244 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2022-09-02 13:20:24,246 [ 1] INFO  Unity: ItemManager:Init[ID:1, Count:20]
-2022-09-02 13:20:24,246 [ 1] INFO  Unity: ItemManager:Init[ID:2, Count:20]
-2022-09-02 13:20:24,253 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
-2022-09-02 13:20:24,254 [ 1] INFO  Unity: AddCharacter:2:123 Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2022-09-02 13:20:24,256 [ 1] INFO  Unity: LoadLevel: MainCity
-2022-09-02 13:20:24,581 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-09-04 18:58:40,310 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2022-09-04 18:58:40,392 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2022-09-04 18:58:40,393 [ 1] INFO  Unity: LoadLevel: CharSelect
+2022-09-04 18:58:40,622 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-09-04 18:58:40,645 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,679 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,682 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,682 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,688 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,688 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,694 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,700 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,700 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,706 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,712 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,718 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,718 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,724 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,730 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,736 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,736 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,742 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,748 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,754 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,755 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,765 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,767 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,777 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,787 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,787 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,793 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,800 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,800 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,814 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,820 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,821 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,827 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,834 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,834 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,840 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,847 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,853 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,853 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,859 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,864 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,871 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,871 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,876 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,886 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,887 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,893 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,899 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,904 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,904 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,910 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,916 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,917 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,923 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,929 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,935 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,936 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,942 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,948 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,954 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,955 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,961 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,967 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,967 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,973 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,979 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,985 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,986 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,992 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:40,998 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,004 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,005 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,017 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,018 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,023 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,029 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,035 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,036 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,043 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,049 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,050 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,056 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,063 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,069 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,070 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,076 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,082 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,088 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,089 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,094 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,101 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,102 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,107 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,114 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,119 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,120 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,126 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,132 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,137 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,138 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,144 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,150 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,151 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,157 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,163 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,169 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,170 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,176 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,182 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,188 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,189 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,195 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,202 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,202 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,208 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,215 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,222 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,223 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,228 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,234 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,235 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,241 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,249 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,256 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,257 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,263 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,269 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,270 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,275 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,281 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,287 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,288 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,293 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,299 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,305 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,306 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,312 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,318 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,319 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,324 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,331 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,337 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,338 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,344 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,350 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,351 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,357 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,363 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,369 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,370 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,376 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,382 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,388 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,388 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,394 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,400 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,401 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,406 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,414 [ 1] INFO  Unity: Select Char:[2]123[Warrior]
+2022-09-04 18:58:41,415 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,423 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,424 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,431 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,437 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,438 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,443 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,450 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,457 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,458 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,464 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,470 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,471 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,477 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,483 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,489 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,490 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,496 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,502 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,502 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,508 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,515 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,520 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,521 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,533 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,543 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,544 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,550 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,556 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,557 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,563 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,570 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,571 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,577 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,583 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,589 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,590 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,596 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,603 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,604 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,610 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,616 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,624 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,625 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,631 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,637 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,638 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,644 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,651 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,652 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,658 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,666 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,672 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,672 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,678 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,684 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,685 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,691 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,697 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,703 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,704 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,710 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,716 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,722 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,723 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,729 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,735 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,736 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,741 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,747 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,753 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,754 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,760 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,766 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,772 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,773 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,778 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,784 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,790 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,791 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,796 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,803 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,804 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,809 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,815 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,820 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,821 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,829 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,834 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,835 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,841 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,848 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,854 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,855 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,861 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,868 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,868 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,874 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,880 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,886 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,887 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,893 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,899 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,905 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,905 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,911 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,917 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,924 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,925 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,930 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,936 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,936 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,943 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2022-09-04 18:58:41,945 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,949 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,955 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:41,962 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2022-09-04 18:58:41,963 [ 1] INFO  Unity: ItemManager:Init[ID:1, Count:20]
+2022-09-04 18:58:41,964 [ 1] INFO  Unity: ItemManager:Init[ID:2, Count:20]
+2022-09-04 18:58:41,965 [ 1] INFO  Unity: ItemManager:Init[ID:8001, Count:1]
+2022-09-04 18:58:41,971 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
+2022-09-04 18:58:41,972 [ 1] INFO  Unity: AddCharacter:2:123 Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2022-09-04 18:58:41,975 [ 1] INFO  Unity: LoadLevel: MainCity
+2022-09-04 18:58:42,360 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,364 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,364 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,364 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,364 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,365 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,365 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,365 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,611 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,611 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,611 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,612 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,612 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,612 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,612 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,621 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,622 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,627 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2022-09-02 13:20:24,581 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2022-09-04 18:58:42,628 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,630 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2022-09-02 13:20:24,646 [ 1] WARN  Unity: MainPlayerCamera[67924] Awake
+2022-09-04 18:58:42,630 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,631 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2022-09-04 18:58:42,697 [ 1] WARN  Unity: MainPlayerCamera[45208] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-09-02 13:20:24,647 [ 1] WARN  Unity: UIMain[68658] Awake
+2022-09-04 18:58:42,698 [ 1] WARN  Unity: UIMain[45942] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-09-02 13:20:24,647 [ 1] WARN  Unity: GameObjectManager[69924] Awake
+2022-09-04 18:58:42,698 [ 1] WARN  Unity: GameObjectManager[47208] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-09-02 13:20:24,654 [ 1] WARN  Unity: UIWorldElementManager[69976] Awake
+2022-09-04 18:58:42,704 [ 1] WARN  Unity: UIWorldElementManager[47260] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
 
-2022-09-02 13:20:24,675 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-09-02 13:20:24,717 [ 1] INFO  Unity: Set Channel:Local
-2022-09-02 13:20:30,713 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2022-09-02 13:20:30,714 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:30,812 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2022-09-02 13:20:30,813 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:30,944 [ 1] INFO  Unity: SetDirection:(86, -52, 0)
-2022-09-02 13:20:30,944 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:31,211 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
-2022-09-02 13:20:31,212 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:31,328 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2022-09-02 13:20:31,329 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:31,428 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
-2022-09-02 13:20:31,429 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:31,577 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
-2022-09-02 13:20:31,578 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:31,879 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:20:31,880 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,046 [ 1] INFO  Unity: SetDirection:(10, -100, 0)
-2022-09-02 13:20:32,047 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,162 [ 1] INFO  Unity: SetDirection:(-9, -100, 0)
-2022-09-02 13:20:32,163 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,247 [ 1] INFO  Unity: SetDirection:(-26, -96, 0)
-2022-09-02 13:20:32,248 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,332 [ 1] INFO  Unity: SetDirection:(-43, -90, 0)
-2022-09-02 13:20:32,333 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,433 [ 1] INFO  Unity: SetDirection:(-61, -80, 0)
-2022-09-02 13:20:32,434 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,529 [ 1] INFO  Unity: SetDirection:(-76, -65, 0)
-2022-09-02 13:20:32,529 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,628 [ 1] INFO  Unity: SetDirection:(-88, -48, 0)
-2022-09-02 13:20:32,629 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,730 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
-2022-09-02 13:20:32,731 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,816 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2022-09-02 13:20:32,817 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:32,863 [ 1] INFO  Unity: Stop
-2022-09-02 13:20:32,864 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:32,902 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
-2022-09-02 13:20:32,903 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:32,999 [ 1] INFO  Unity: SetDirection:(-96, 26, 0)
-2022-09-02 13:20:33,000 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:33,086 [ 1] INFO  Unity: SetDirection:(-90, 43, 0)
-2022-09-02 13:20:33,086 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:33,179 [ 1] INFO  Unity: SetDirection:(-80, 61, 0)
-2022-09-02 13:20:33,180 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:33,215 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:20:33,215 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,283 [ 1] INFO  Unity: SetDirection:(-65, 76, 0)
-2022-09-02 13:20:33,283 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,381 [ 1] INFO  Unity: SetDirection:(-48, 88, 0)
-2022-09-02 13:20:33,382 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,400 [ 1] INFO  Unity: Stop
-2022-09-02 13:20:33,400 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:33,459 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:20:33,460 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,483 [ 1] INFO  Unity: SetDirection:(-29, 96, 0)
-2022-09-02 13:20:33,484 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,568 [ 1] INFO  Unity: SetDirection:(-12, 99, 0)
-2022-09-02 13:20:33,569 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,668 [ 1] INFO  Unity: SetDirection:(7, 100, 0)
-2022-09-02 13:20:33,669 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:33,818 [ 1] INFO  Unity: SetDirection:(24, 97, 0)
-2022-09-02 13:20:33,819 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:34,248 [ 1] INFO  Unity: Stop
-2022-09-02 13:20:34,249 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:34,468 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:20:34,469 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:35,352 [ 1] INFO  Unity: SetDirection:(6, 100, 0)
-2022-09-02 13:20:35,353 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:35,555 [ 1] INFO  Unity: SetDirection:(-12, 99, 0)
-2022-09-02 13:20:35,556 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:36,037 [ 1] INFO  Unity: SetDirection:(-31, 95, 0)
-2022-09-02 13:20:36,038 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:36,153 [ 1] INFO  Unity: SetDirection:(-48, 88, 0)
-2022-09-02 13:20:36,154 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:36,488 [ 1] INFO  Unity: SetDirection:(-63, 78, 0)
-2022-09-02 13:20:36,489 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:36,656 [ 1] INFO  Unity: SetDirection:(-76, 65, 0)
-2022-09-02 13:20:36,656 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:37,341 [ 1] INFO  Unity: SetDirection:(-86, 50, 0)
-2022-09-02 13:20:37,342 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:37,822 [ 1] INFO  Unity: SetDirection:(-94, 34, 0)
-2022-09-02 13:20:37,823 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:37,975 [ 1] INFO  Unity: SetDirection:(-99, 15, 0)
-2022-09-02 13:20:37,976 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:38,289 [ 1] INFO  Unity: SetDirection:(-100, -3, 0)
-2022-09-02 13:20:38,289 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:38,777 [ 1] INFO  Unity: SetDirection:(-98, -22, 0)
-2022-09-02 13:20:38,777 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:39,893 [ 1] INFO  Unity: SetDirection:(-92, -39, 0)
-2022-09-02 13:20:39,893 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:40,211 [ 1] INFO  Unity: SetPosition:(3852, 4788, 806)
-2022-09-02 13:20:40,211 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:42,352 [ 1] INFO  Unity: SetPosition:(3262, 4538, 806)
-2022-09-02 13:20:42,352 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:20:43,099 [ 1] INFO  Unity: Stop
-2022-09-02 13:20:43,100 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:20:59,686 [ 1] INFO  Unity: SendBuyItem
-2022-09-02 13:20:59,934 [ 1] INFO  Unity: StatusNotify:[Item][Add]8001:1
-2022-09-02 13:20:59,936 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:1000
-2022-09-02 13:21:04,401 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:07,687 [ 1] INFO  Unity: SetDirection:(-83, -56, 0)
-2022-09-02 13:21:07,687 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:07,788 [ 1] INFO  Unity: SetDirection:(-71, -71, 0)
-2022-09-02 13:21:07,789 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:07,887 [ 1] INFO  Unity: SetDirection:(-55, -84, 0)
-2022-09-02 13:21:07,888 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:07,969 [ 1] INFO  Unity: SetDirection:(-39, -92, 0)
-2022-09-02 13:21:07,970 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:08,065 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
-2022-09-02 13:21:08,066 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:08,168 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
-2022-09-02 13:21:08,169 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:08,270 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:08,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:08,271 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
-2022-09-02 13:21:08,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:09,539 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
-2022-09-02 13:21:09,539 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,221 [ 1] INFO  Unity: SetDirection:(52, -86, 0)
-2022-09-02 13:21:10,222 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,540 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
-2022-09-02 13:21:10,541 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,639 [ 1] INFO  Unity: SetDirection:(17, -99, 0)
-2022-09-02 13:21:10,640 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,739 [ 1] INFO  Unity: SetDirection:(-4, -100, 0)
-2022-09-02 13:21:10,740 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,837 [ 1] INFO  Unity: SetDirection:(-24, -97, 0)
-2022-09-02 13:21:10,837 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:10,922 [ 1] INFO  Unity: SetDirection:(-41, -91, 0)
-2022-09-02 13:21:10,922 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,174 [ 1] INFO  Unity: SetDirection:(-24, -97, 0)
-2022-09-02 13:21:11,175 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,274 [ 1] INFO  Unity: SetDirection:(-6, -100, 0)
-2022-09-02 13:21:11,275 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,356 [ 1] INFO  Unity: SetDirection:(12, -99, 0)
-2022-09-02 13:21:11,357 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,457 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2022-09-02 13:21:11,457 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,558 [ 1] INFO  Unity: SetDirection:(51, -86, 0)
-2022-09-02 13:21:11,559 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:11,655 [ 1] INFO  Unity: SetDirection:(68, -74, 0)
-2022-09-02 13:21:11,655 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,060 [ 1] INFO  Unity: SetDirection:(52, -85, 0)
-2022-09-02 13:21:12,061 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,143 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
-2022-09-02 13:21:12,144 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,245 [ 1] INFO  Unity: SetDirection:(16, -99, 0)
-2022-09-02 13:21:12,246 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,344 [ 1] INFO  Unity: SetDirection:(-5, -100, 0)
-2022-09-02 13:21:12,345 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,441 [ 1] INFO  Unity: SetDirection:(-25, -97, 0)
-2022-09-02 13:21:12,441 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,527 [ 1] INFO  Unity: SetDirection:(-42, -91, 0)
-2022-09-02 13:21:12,528 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,625 [ 1] INFO  Unity: SetDirection:(-60, -80, 0)
-2022-09-02 13:21:12,625 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:12,914 [ 1] INFO  Unity: SetDirection:(-44, -90, 0)
-2022-09-02 13:21:12,915 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,010 [ 1] INFO  Unity: SetDirection:(-25, -97, 0)
-2022-09-02 13:21:13,010 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,110 [ 1] INFO  Unity: SetDirection:(-5, -100, 0)
-2022-09-02 13:21:13,111 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,716 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
-2022-09-02 13:21:13,717 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,844 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2022-09-02 13:21:13,844 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,932 [ 1] INFO  Unity: SetDirection:(48, -88, 0)
-2022-09-02 13:21:13,933 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:13,934 [ 1] INFO  Unity: SetPosition:(3272, 2865, 806)
-2022-09-02 13:21:13,934 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,015 [ 1] INFO  Unity: SetDirection:(63, -78, 0)
-2022-09-02 13:21:14,016 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,111 [ 1] INFO  Unity: SetDirection:(77, -63, 0)
-2022-09-02 13:21:14,112 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,146 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:14,146 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:14,211 [ 1] INFO  Unity: SetDirection:(89, -46, 0)
-2022-09-02 13:21:14,212 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:14,267 [ 1] INFO  Unity: MoveBack
-2022-09-02 13:21:14,267 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:14,294 [ 1] INFO  Unity: SetDirection:(95, -30, 0)
-2022-09-02 13:21:14,295 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:14,379 [ 1] INFO  Unity: SetDirection:(99, -13, 0)
-2022-09-02 13:21:14,380 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:14,462 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:14,463 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:14,463 [ 1] INFO  Unity: SetDirection:(100, 5, 0)
-2022-09-02 13:21:14,463 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:14,527 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:14,528 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,567 [ 1] INFO  Unity: SetDirection:(97, 25, 0)
-2022-09-02 13:21:14,568 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,648 [ 1] INFO  Unity: SetDirection:(91, 42, 0)
-2022-09-02 13:21:14,649 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,900 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:14,901 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:14,918 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:14,918 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:14,979 [ 1] INFO  Unity: SetDirection:(97, 24, 0)
-2022-09-02 13:21:14,980 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,114 [ 1] INFO  Unity: SetDirection:(91, 42, 0)
-2022-09-02 13:21:16,115 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,468 [ 1] INFO  Unity: SetDirection:(97, 25, 0)
-2022-09-02 13:21:16,469 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,570 [ 1] INFO  Unity: SetDirection:(100, 5, 0)
-2022-09-02 13:21:16,570 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,652 [ 1] INFO  Unity: SetDirection:(99, -13, 0)
-2022-09-02 13:21:16,653 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,759 [ 1] INFO  Unity: SetDirection:(94, -33, 0)
-2022-09-02 13:21:16,760 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,850 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
-2022-09-02 13:21:16,851 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:16,953 [ 1] INFO  Unity: SetDirection:(73, -69, 0)
-2022-09-02 13:21:16,954 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,053 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2022-09-02 13:21:17,054 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,138 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
-2022-09-02 13:21:17,139 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,226 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
-2022-09-02 13:21:17,226 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,321 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
-2022-09-02 13:21:17,322 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,400 [ 1] INFO  Unity: SetDirection:(-13, -99, 0)
-2022-09-02 13:21:17,401 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,500 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
-2022-09-02 13:21:17,501 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,601 [ 1] INFO  Unity: SetDirection:(-52, -85, 0)
-2022-09-02 13:21:17,602 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,702 [ 1] INFO  Unity: SetDirection:(-68, -74, 0)
-2022-09-02 13:21:17,702 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:17,851 [ 1] INFO  Unity: SetDirection:(-80, -60, 0)
-2022-09-02 13:21:17,851 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:18,693 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:18,693 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:19,290 [ 1] INFO  Unity: MoveBack
-2022-09-02 13:21:19,291 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,474 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
-2022-09-02 13:21:19,474 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,593 [ 1] INFO  Unity: SetDirection:(-97, -26, 0)
-2022-09-02 13:21:19,594 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,693 [ 1] INFO  Unity: SetDirection:(-100, -5, 0)
-2022-09-02 13:21:19,694 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,789 [ 1] INFO  Unity: SetDirection:(-99, 16, 0)
-2022-09-02 13:21:19,790 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,892 [ 1] INFO  Unity: SetDirection:(-93, 36, 0)
-2022-09-02 13:21:19,892 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:19,994 [ 1] INFO  Unity: SetDirection:(-84, 54, 0)
-2022-09-02 13:21:19,995 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,073 [ 1] INFO  Unity: SetDirection:(-73, 68, 0)
-2022-09-02 13:21:20,074 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,175 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
-2022-09-02 13:21:20,175 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,246 [ 1] INFO  Unity: SetPosition:(3981, 2597, 806)
-2022-09-02 13:21:20,246 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,277 [ 1] INFO  Unity: SetDirection:(-39, 92, 0)
-2022-09-02 13:21:20,278 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,374 [ 1] INFO  Unity: SetDirection:(-19, 98, 0)
-2022-09-02 13:21:20,374 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,475 [ 1] INFO  Unity: SetDirection:(2, 100, 0)
-2022-09-02 13:21:20,476 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,583 [ 1] INFO  Unity: SetDirection:(22, 98, 0)
-2022-09-02 13:21:20,583 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,695 [ 1] INFO  Unity: SetDirection:(39, 92, 0)
-2022-09-02 13:21:20,696 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-09-02 13:21:20,840 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:20,840 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:21,249 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:21,250 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,493 [ 1] INFO  Unity: SetDirection:(21, 98, 0)
-2022-09-02 13:21:21,494 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,594 [ 1] INFO  Unity: SetDirection:(0, 100, 0)
-2022-09-02 13:21:21,595 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,696 [ 1] INFO  Unity: SetDirection:(-21, 98, 0)
-2022-09-02 13:21:21,696 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,794 [ 1] INFO  Unity: SetDirection:(-40, 91, 0)
-2022-09-02 13:21:21,795 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,877 [ 1] INFO  Unity: SetDirection:(-56, 83, 0)
-2022-09-02 13:21:21,877 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:21,976 [ 1] INFO  Unity: SetDirection:(-72, 70, 0)
-2022-09-02 13:21:21,977 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,061 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
-2022-09-02 13:21:22,061 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,160 [ 1] INFO  Unity: SetDirection:(-93, 38, 0)
-2022-09-02 13:21:22,161 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,255 [ 1] INFO  Unity: SetDirection:(-98, 21, 0)
-2022-09-02 13:21:22,255 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,349 [ 1] INFO  Unity: SetDirection:(-100, 0, 0)
-2022-09-02 13:21:22,350 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,449 [ 1] INFO  Unity: SetDirection:(-98, -21, 0)
-2022-09-02 13:21:22,450 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:22,482 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:22,483 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:22,549 [ 1] INFO  Unity: SetDirection:(-92, -40, 0)
-2022-09-02 13:21:22,550 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:22,680 [ 1] INFO  Unity: SetDirection:(-83, -56, 0)
-2022-09-02 13:21:22,681 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:23,099 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:25,085 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:25,086 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:25,352 [ 1] INFO  Unity: SetDirection:(-91, -41, 0)
-2022-09-02 13:21:25,353 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:25,517 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:25,536 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:25,536 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:26,724 [ 1] INFO  Unity: SetDirection:(-97, -24, 0)
-2022-09-02 13:21:26,725 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:28,039 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:28,309 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:30,596 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:30,597 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:30,865 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:30,866 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:31,149 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:31,150 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:31,348 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:31,349 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:31,407 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:21:31,407 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:31,629 [ 1] INFO  Unity: SetDirection:(-100, -6, 0)
-2022-09-02 13:21:31,630 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:31,746 [ 1] INFO  Unity: SetDirection:(-99, 14, 0)
-2022-09-02 13:21:31,746 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:31,864 [ 1] INFO  Unity: SetDirection:(-95, 31, 0)
-2022-09-02 13:21:31,865 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:32,966 [ 1] INFO  Unity: SetDirection:(-99, 14, 0)
-2022-09-02 13:21:32,967 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:21:33,349 [ 1] INFO  Unity: Stop
-2022-09-02 13:21:33,350 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:21:34,702 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIRide.DoRide () (at Assets/Scripts/UI/Ride/UIRide.cs:77)
-UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2022-09-02 13:21:36,802 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:00,344 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:00,344 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:00,605 [ 1] INFO  Unity: SetDirection:(-95, 31, 0)
-2022-09-02 13:22:00,606 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:00,638 [ 1] INFO  Unity: SetPosition:(2942, 2717, 806)
-2022-09-02 13:22:00,639 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:00,710 [ 1] INFO  Unity: SetDirection:(-87, 49, 0)
-2022-09-02 13:22:00,710 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:00,789 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:00,790 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:00,790 [ 1] INFO  Unity: SetDirection:(-77, 64, 0)
-2022-09-02 13:22:00,790 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:00,892 [ 1] INFO  Unity: SetDirection:(-62, 78, 0)
-2022-09-02 13:22:00,893 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:00,974 [ 1] INFO  Unity: SetDirection:(-47, 88, 0)
-2022-09-02 13:22:00,975 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:01,071 [ 1] INFO  Unity: SetDirection:(-28, 96, 0)
-2022-09-02 13:22:01,072 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:01,107 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:01,108 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,176 [ 1] INFO  Unity: SetDirection:(-8, 100, 0)
-2022-09-02 13:22:01,177 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,260 [ 1] INFO  Unity: SetDirection:(10, 100, 0)
-2022-09-02 13:22:01,261 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,316 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:01,316 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:01,365 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:01,366 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,366 [ 1] INFO  Unity: SetDirection:(30, 95, 0)
-2022-09-02 13:22:01,367 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,443 [ 1] INFO  Unity: SetDirection:(46, 89, 0)
-2022-09-02 13:22:01,444 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,539 [ 1] INFO  Unity: SetDirection:(62, 78, 0)
-2022-09-02 13:22:01,540 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:01,573 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:01,574 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:01,693 [ 1] INFO  Unity: SetDirection:(75, 66, 0)
-2022-09-02 13:22:01,694 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:02,943 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:04,188 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:05,036 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:05,351 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:05,646 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:05,906 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:06,264 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:06,610 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:06,968 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:07,523 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:08,575 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:08,576 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:08,770 [ 1] INFO  Unity: SetDirection:(86, 52, 0)
-2022-09-02 13:22:08,771 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:08,887 [ 1] INFO  Unity: SetDirection:(94, 33, 0)
-2022-09-02 13:22:08,887 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:08,986 [ 1] INFO  Unity: SetDirection:(99, 13, 0)
-2022-09-02 13:22:08,987 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:09,086 [ 1] INFO  Unity: SetDirection:(100, -7, 0)
-2022-09-02 13:22:09,087 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:09,224 [ 1] INFO  Unity: SetDirection:(97, -24, 0)
-2022-09-02 13:22:09,225 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:10,510 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:10,511 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:14,569 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:14,570 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:14,804 [ 1] INFO  Unity: SetDirection:(91, -42, 0)
-2022-09-02 13:22:14,804 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:14,902 [ 1] INFO  Unity: SetDirection:(81, -59, 0)
-2022-09-02 13:22:14,903 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:15,901 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:15,902 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:16,040 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:16,040 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:16,101 [ 1] INFO  Unity: SetDirection:(90, -44, 0)
-2022-09-02 13:22:16,101 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:16,305 [ 1] INFO  Unity: SetDirection:(96, -27, 0)
-2022-09-02 13:22:16,306 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:16,371 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:16,372 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:16,490 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:16,490 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:16,687 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:16,687 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:16,687 [ 1] INFO  Unity: SetDirection:(100, -10, 0)
-2022-09-02 13:22:16,688 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:28,416 [ 1] INFO  Unity: MoveForward
-2022-09-02 13:22:28,417 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:28,647 [ 1] INFO  Unity: SetDirection:(100, 9, 0)
-2022-09-02 13:22:28,648 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:28,748 [ 1] INFO  Unity: SetDirection:(96, 27, 0)
-2022-09-02 13:22:28,749 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:28,833 [ 1] INFO  Unity: SetDirection:(90, 44, 0)
-2022-09-02 13:22:28,834 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:28,933 [ 1] INFO  Unity: SetDirection:(80, 61, 0)
-2022-09-02 13:22:28,933 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:29,043 [ 1] INFO  Unity: SetDirection:(66, 75, 0)
-2022-09-02 13:22:29,044 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:29,148 [ 1] INFO  Unity: SetDirection:(49, 87, 0)
-2022-09-02 13:22:29,148 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:29,281 [ 1] INFO  Unity: SetDirection:(32, 95, 0)
-2022-09-02 13:22:29,281 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:29,934 [ 1] INFO  Unity: SetDirection:(49, 87, 0)
-2022-09-02 13:22:29,934 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:30,247 [ 1] INFO  Unity: SetDirection:(64, 76, 0)
-2022-09-02 13:22:30,247 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:30,386 [ 1] INFO  Unity: SetDirection:(78, 62, 0)
-2022-09-02 13:22:30,387 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:30,515 [ 1] INFO  Unity: SetDirection:(88, 47, 0)
-2022-09-02 13:22:30,515 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:30,751 [ 1] INFO  Unity: SetDirection:(95, 30, 0)
-2022-09-02 13:22:30,752 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:30,865 [ 1] INFO  Unity: SetDirection:(99, 12, 0)
-2022-09-02 13:22:30,865 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-09-02 13:22:31,300 [ 1] INFO  Unity: Stop
-2022-09-02 13:22:31,301 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-09-02 13:22:36,095 [ 1] INFO  Unity: UserGameLeaveRequest
-2022-09-02 13:22:36,108 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:11
-2022-09-02 13:22:36,109 [ 1] INFO  Unity: RemoveCharacter:11
-2022-09-02 13:22:36,111 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2022-09-02 13:22:36,246 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID11 POS:(4596, 3067, 806) DIR:(99, 12, 0) SPD:0
-2022-09-02 13:22:36,264 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2022-09-02 13:22:36,264 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2022-09-04 18:58:42,726 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-09-04 18:58:42,770 [ 1] INFO  Unity: Set Channel:Local
+2022-09-04 18:58:43,933 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2022-09-04 18:58:43,933 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,032 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2022-09-04 18:58:44,033 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,131 [ 1] INFO  Unity: SetDirection:(84, -55, 0)
+2022-09-04 18:58:44,132 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,233 [ 1] INFO  Unity: SetDirection:(71, -71, 0)
+2022-09-04 18:58:44,234 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,314 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
+2022-09-04 18:58:44,315 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,416 [ 1] INFO  Unity: SetDirection:(39, -92, 0)
+2022-09-04 18:58:44,417 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,499 [ 1] INFO  Unity: SetDirection:(22, -97, 0)
+2022-09-04 18:58:44,500 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,598 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
+2022-09-04 18:58:44,598 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:44,766 [ 1] INFO  Unity: SetDirection:(-14, -99, 0)
+2022-09-04 18:58:44,766 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:45,905 [ 1] INFO  Unity: MoveForward
+2022-09-04 18:58:45,906 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:46,150 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
+2022-09-04 18:58:46,151 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:46,335 [ 1] INFO  Unity: SetDirection:(22, -98, 0)
+2022-09-04 18:58:46,336 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:46,635 [ 1] INFO  Unity: SetDirection:(3, -100, 0)
+2022-09-04 18:58:46,635 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:46,769 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
+2022-09-04 18:58:46,770 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:46,854 [ 1] INFO  Unity: Stop
+2022-09-04 18:58:46,855 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:48,083 [ 1] INFO  Unity: MoveForward
+2022-09-04 18:58:48,084 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,150 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
+2022-09-04 18:58:48,150 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,260 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2022-09-04 18:58:48,261 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,294 [ 1] INFO  Unity: SetPosition:(4991, 3701, 811)
+2022-09-04 18:58:48,294 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,357 [ 1] INFO  Unity: SetDirection:(-64, -77, 0)
+2022-09-04 18:58:48,357 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,470 [ 1] INFO  Unity: SetDirection:(-76, -64, 0)
+2022-09-04 18:58:48,471 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,653 [ 1] INFO  Unity: SetDirection:(-87, -50, 0)
+2022-09-04 18:58:48,653 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:48,724 [ 1] INFO  Unity: SetPosition:(4880, 3659, 811)
+2022-09-04 18:58:48,725 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:49,340 [ 1] INFO  Unity: SetPosition:(4707, 3593, 812)
+2022-09-04 18:58:49,340 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:49,562 [ 1] INFO  Unity: SetPosition:(4703, 3570, 812)
+2022-09-04 18:58:49,562 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:49,667 [ 1] INFO  Unity: SetDirection:(-94, -34, 0)
+2022-09-04 18:58:49,667 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:49,741 [ 1] INFO  Unity: SetPosition:(4703, 3553, 813)
+2022-09-04 18:58:49,741 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:49,912 [ 1] INFO  Unity: SetPosition:(4703, 3538, 814)
+2022-09-04 18:58:49,913 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:50,091 [ 1] INFO  Unity: SetPosition:(4702, 3520, 814)
+2022-09-04 18:58:50,091 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:51,094 [ 1] INFO  Unity: SetPosition:(4438, 3435, 813)
+2022-09-04 18:58:51,095 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:51,831 [ 1] INFO  Unity: Stop
+2022-09-04 18:58:51,832 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:55,520 [ 1] INFO  Unity: SetPosition:(4228, 3396, 813)
+2022-09-04 18:58:55,520 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:57,572 [ 1] INFO  Unity: MoveBack
+2022-09-04 18:58:57,574 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2022-09-04 18:58:57,673 [ 1] INFO  Unity: SetDirection:(-99, -17, 0)
+2022-09-04 18:58:57,674 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2022-09-04 18:58:57,829 [ 1] INFO  Unity: SetDirection:(-100, 1, 0)
+2022-09-04 18:58:57,830 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2022-09-04 18:58:57,926 [ 1] INFO  Unity: SetDirection:(-98, 19, 0)
+2022-09-04 18:58:57,927 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2022-09-04 18:58:58,326 [ 1] INFO  Unity: Stop
+2022-09-04 18:58:58,327 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:58:58,671 [ 1] INFO  Unity: MoveForward
+2022-09-04 18:58:58,672 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:58,946 [ 1] INFO  Unity: SetPosition:(4416, 3393, 813)
+2022-09-04 18:58:58,946 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:59,172 [ 1] INFO  Unity: SetDirection:(-100, 2, 0)
+2022-09-04 18:58:59,173 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2022-09-04 18:58:59,596 [ 1] INFO  Unity: Stop
+2022-09-04 18:58:59,597 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:11 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2022-09-04 18:59:01,260 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2022-09-04 18:59:01,261 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 
+2022-09-04 18:59:01,262 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID11 POS:(4221, 3406, 813) DIR:(-100, 2, 0) SPD:0

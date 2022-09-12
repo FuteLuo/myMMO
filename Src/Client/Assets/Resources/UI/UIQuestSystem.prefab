@@ -2377,7 +2377,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114130215442813760}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114956788856657234}
+        m_MethodName: OnClickNav
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114592771777791694
@@ -3179,6 +3190,7 @@ MonoBehaviour:
     type: 2}
   rewardMoney: {fileID: 114829153853778424}
   rewardExp: {fileID: 114273959019635916}
+  navButton: {fileID: 114590235715234246}
 --- !u!114 &114966482268800752
 MonoBehaviour:
   m_ObjectHideFlags: 1

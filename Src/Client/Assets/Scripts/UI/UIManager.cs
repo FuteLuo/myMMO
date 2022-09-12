@@ -16,7 +16,7 @@ public class UIManager : Singleton<UIManager> {
 
     public UIManager()
     {
-        this.UIResources.Add(typeof(UISetting), new UIElement() { Resources = "UI/UISetting", Cache = false });
+        this.UIResources.Add(typeof(UISetting), new UIElement() { Resources = "UI/UISetting", Cache = true });
         this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });
         this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop", Cache = false });
         this.UIResources.Add(typeof(UICharEquip), new UIElement() { Resources = "UI/UICharEquip", Cache = false });
@@ -30,6 +30,7 @@ public class UIManager : Singleton<UIManager> {
         this.UIResources.Add(typeof(UIGuildApplyList), new UIElement() { Resources = "UI/Guild/UIGuildApplyList", Cache = false });
         this.UIResources.Add(typeof(UIPopCharMenu), new UIElement() { Resources = "UI/UIPopCharMenu", Cache = false });
         this.UIResources.Add(typeof(UIRide), new UIElement() { Resources = "UI/UIRide", Cache = false });
+        this.UIResources.Add(typeof(UISystemConfig), new UIElement() { Resources = "UI/UISystemConfig", Cache = false });
 
     }
 
@@ -42,6 +43,7 @@ public class UIManager : Singleton<UIManager> {
 	// Update is called once per frame
     public T Show<T>()
     {
+        SoundManager.Instance.PlaySound(SoundDefine.SFX_UI_Win_Open);
         Type type = typeof(T);
         if(this.UIResources.ContainsKey(type))
         {
@@ -79,5 +81,10 @@ public class UIManager : Singleton<UIManager> {
                 info.Instance = null;
             }
         }
+    }
+
+    public void Close<T>()
+    {
+        this.Close(typeof(T));
     }
 }

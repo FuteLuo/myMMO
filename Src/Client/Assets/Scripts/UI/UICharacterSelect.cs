@@ -94,7 +94,7 @@ public class UICharacterSelect : MonoBehaviour {
             MessageBox.Show("请输入名称");
             return;
         }
-
+        SoundManager.Instance.PlaySound(SoundDefine.SFX_UI_Click);
         UserService.Instance.SendCharacterCreate(this.charName.text,this.charClass);
     }
 
@@ -109,6 +109,7 @@ public class UICharacterSelect : MonoBehaviour {
             //names[i].text = DataManager.Instance.Characters[i+1].Name;
         }
         descs.text = DataManager.Instance.Characters[charClass].Description;
+        SoundManager.Instance.PlaySound(SoundDefine.SFX_UI_Click); 
 
 
     }

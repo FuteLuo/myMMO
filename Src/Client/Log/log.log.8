@@ -1,51 +1,11 @@
-2022-09-01 14:38:58,940 [ 1] INFO  Unity: LoadingManager start
-2022-09-01 14:39:01,994 [ 1] INFO  Unity: DataManager > DataManager()
-2022-09-01 14:39:04,703 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
-2022-09-01 14:39:04,704 [ 1] INFO  Unity: ConnectToServer() Start 
-2022-09-01 14:39:04,705 [ 1] INFO  Unity: DoConnect
-2022-09-01 14:39:04,706 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2022-09-01 14:39:04,708 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2022-09-01 14:39:04,709 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2022-09-01 14:39:04,793 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2022-09-01 14:39:04,794 [ 1] INFO  Unity: LoadLevel: CharSelect
-2022-09-01 14:39:04,924 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-09-01 14:39:05,821 [ 1] INFO  Unity: Select Char:[2]123[Warrior]
-2022-09-01 14:39:06,244 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2022-09-01 14:39:06,263 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2022-09-01 14:39:06,264 [ 1] INFO  Unity: ItemManager:Init[ID:1, Count:20]
-2022-09-01 14:39:06,265 [ 1] INFO  Unity: ItemManager:Init[ID:2, Count:20]
-2022-09-01 14:39:06,271 [ 1] INFO  Unity: OnMapCharacterEnter:1 Count:1
-2022-09-01 14:39:06,272 [ 1] INFO  Unity: AddCharacter:2:123 Map:1 Entity:(15:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2022-09-01 14:39:06,274 [ 1] INFO  Unity: LoadLevel: MainCity
-2022-09-01 14:39:06,587 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2022-09-01 14:39:06,588 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2022-09-01 14:39:06,658 [ 1] WARN  Unity: MainPlayerCamera[160814] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2022-09-01 14:39:06,659 [ 1] WARN  Unity: UIMain[161548] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2022-09-01 14:39:06,660 [ 1] WARN  Unity: GameObjectManager[162804] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2022-09-01 14:39:06,666 [ 1] WARN  Unity: UIWorldElementManager[162856] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2022-09-01 14:39:06,689 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-09-01 14:39:06,740 [ 1] INFO  Unity: Set Channel:Local
-2022-09-01 14:39:12,506 [ 1] INFO  Unity: Set Channel:Private
-2022-09-01 14:39:20,855 [ 1] INFO  Unity: SendBuyItem
-2022-09-01 14:39:24,743 [ 1] INFO  Unity: Set Channel:World
-2022-09-01 14:39:29,997 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID15 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0
-2022-09-01 14:39:29,999 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2022-09-01 14:39:30,000 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2022-09-03 15:11:47,410 [ 1] INFO  Unity: LoadingManager start
+2022-09-03 15:11:50,462 [ 1] INFO  Unity: DataManager > DataManager()
+2022-09-03 15:11:50,600 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, LoadingManager+<Start>c__Iterator0.MoveNext () (at Assets/Scripts/LoadingManager.cs:51)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at D:/unity/Runtime/Export/Coroutines.cs:17)
+}</args></log4net.Error>
+2022-09-03 15:12:02,339 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2022-09-03 15:12:02,340 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)

@@ -59,6 +59,8 @@ public class UIRide : UIWindow {
             //显示类型是可以装备的并且是当前职业的
             if (kv.Value.Define.Type == ItemType.Ride && kv.Value.Define.LimitClass == CharacterClass.None || kv.Value.Define.LimitClass == User.Instance.CurrentCharacter.Class)
             {
+                if (EquipManager.Instance.Contains(kv.Key))
+                    continue;
 
                 GameObject go = Instantiate(itemPrefab, this.listMain.transform);
                 UIRideItem ui = go.GetComponent<UIRideItem>();
